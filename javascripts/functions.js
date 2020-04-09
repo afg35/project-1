@@ -23,12 +23,12 @@ let arrAvg = (arr) => {
 //From lecture ex, double check it works (IT DOES NOT)
 let arrMax = (arr) => {
   let maxNow = arr[0];
-  let results = "";
 
   arr.forEach((elem) => {
-    if(elem.length > maxNow){
-      maxNow = elem.length;
+    if(elem > maxNow){
+      maxNow = elem;
     }
   });
   console.log(maxNow);
+  return maxNow;
 };

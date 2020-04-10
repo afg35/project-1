@@ -18,9 +18,8 @@ let arrAvg = (arr) => {
 
 };
 
-//Req 3c
+//Req. 3c
 
-//From lecture ex, double check it works (IT DOES NOT)
 let arrMax = (arr) => {
   let maxNow = arr[0];
 
@@ -31,4 +30,33 @@ let arrMax = (arr) => {
   });
   console.log(maxNow);
   return maxNow;
+};
+
+//Req. 3d
+let sumEvens = (arr) => {
+  let sum = 0;
+  for (let i of arr) {
+    if (i % 2 == 0)
+    sum = sum + i;
+  }
+  console.log(sum);
+  return sum;
+};
+
+
+
+//Extra Credit 3E
+const alphaPosition = function(ch) {
+//97 is a, or position 1
+//122 is z, or position final
+//122 - ASCII position = a_number.
+//26 - a_number = answer
+
+let answer, position;
+position = ch.charCodeAt(0);
+position = 122 - position;
+answer = 26 - position;
+
+console.log(answer);
+return answer;
 };

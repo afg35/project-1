@@ -12,3 +12,5 @@
 - Learning and practicing the 281 workflow
 
 Here is my 281 webpage: [Click Here!](https://pages.uoregon.edu/afg/281/)
+
+Here is a link to my Github User page: [Click Here!](https://afg35.github.io/)
